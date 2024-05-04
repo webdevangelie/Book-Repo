@@ -1,6 +1,9 @@
 import React from 'react'
+import quotes from '../quotes.json'
 
-const Hero = ({quote, author}) => {
+const Hero = () => {
+  console.log(quotes)
+  
   return (
     <section className="bg-orange-700 py-20 mb-4">
       <div
@@ -8,8 +11,8 @@ const Hero = ({quote, author}) => {
       >
         <div className="text-center">
           <p className="my-4 text-xl text-white">
-            {quote}
-          </p> <span>{author}</span>
+            test
+          </p> <span>test</span>
         </div>
       </div>
     </section>
